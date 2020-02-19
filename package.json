@@ -1,15 +1,14 @@
 {
-  "name": "code-sandbox-examples",
+  "name": "create-react-app-ie11",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "core-js": "^3.6.4",
-    "react": "^16.12.0",
-    "react-app-polyfill": "^1.0.6",
+    "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.16",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-app-polyfill": "^1.0.4",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,11 +21,13 @@
   },
   "browserslist": {
     "production": [
+      "IE 11",
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
     "development": [
+      "IE 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
